@@ -113,14 +113,17 @@ h3 {
     align-items: center;
     text-align: left;
 }
-    .header-nav::after{
+ .header-menu-item::after {
+    content: '';
+            /* Залиште цей рядок, якщо псевдоелемент має залишитися пустим */
+    position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 10px;
+            /* Додайте розмір псевдоелемента (ширина стрілочки) */
     background-color: #404bbf;
     border-radius: 2px;
-    content: '';
-    position: absolute;
 }
 
 .header-container {
