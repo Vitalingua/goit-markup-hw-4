@@ -263,6 +263,7 @@ h3 {
     padding: 188px 0 188px;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -366,6 +367,15 @@ h3 {
     margin-left: auto;
 }
 
+.strategy-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .button-web-studio {
     display: block;
     background-color: #4D5AE5;
@@ -374,6 +384,7 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #ffffff;
     cursor: pointer;
     min-width: 169px;
