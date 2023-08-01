@@ -62,7 +62,6 @@ img {
 }
 
 .header-logo-one {
-    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -71,7 +70,6 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
     color: #404bbf;
-
 }
 
 .header {
@@ -80,13 +78,13 @@ img {
 }
 
 .header-logo-two {
-    color: var(--text-color);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--text-color);
 }
 
 h3 {
@@ -113,25 +111,19 @@ h3 {
     align-items: center;
     text-align: left;
 }
- .header-menu-item::after {
+
+.header-menu-item::after {
     content: '';
-            /* Залиште цей рядок, якщо псевдоелемент має залишитися пустим */
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     width: 10px;
-            /* Додайте розмір псевдоелемента (ширина стрілочки) */
     background-color: #404bbf;
     border-radius: 2px;
 }
 
 .header-container {
-    display: flex;
-    display: flex;
-}
-
-.header-studio-container {
     display: flex;
     max-width: 1158px;
     width: auto;
@@ -139,6 +131,14 @@ h3 {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.header-studio-container {
+    max-width: 1158px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .header-list-address {
@@ -149,11 +149,9 @@ h3 {
 .header-menu-item {
     display: flex;
     font-weight: 500;
-    size: 16px;
     position: relative;
     color: #404bbf;
     line-height: 1.5;
-    /* 24/16 */
 }
 
 .header-menu-item:hover {
@@ -185,14 +183,12 @@ h3 {
     list-style: none;
 }
 
-
 .header-menu-link {
     color: #2E2F42;
     letter-spacing: 0.02em;
     padding: 24px 0 24px;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .header-menu-link:hover {
