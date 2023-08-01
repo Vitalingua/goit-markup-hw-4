@@ -248,10 +248,8 @@ h3 {
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+            rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
     background-repeat: no-repeat;
-}
 }
 
 .section-two {
@@ -451,7 +449,7 @@ h3 {
     justify-content: center;
     text-align: center;
 }
-.customer-item{
+.customers-item{
    height: 88px;
 }
 .customer-icon{
@@ -461,11 +459,17 @@ h3 {
     border: 1px solid rgba(142, 143, 153, 1);
     border-radius: 4px;
     width: 168px;
-    height: 88px;
+    height: 100%;
 justify-content: center;
 display: flex;
-text-align: center;
+align-items: center;
 margin-bottom: 120px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .footer {
     color: #F4F4FD;
