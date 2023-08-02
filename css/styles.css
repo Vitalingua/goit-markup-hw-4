@@ -624,9 +624,10 @@ h3 {
 .socials-footer-list{
     display: flex;
     gap: 16px;
+    width: 100%;
 }
 
-.socials-footer-icon{
+.socials-footer-icon {
     width: 40px;
     height: 40px;
 }
