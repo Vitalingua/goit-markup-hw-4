@@ -59,6 +59,7 @@ img {
     --font-weight: 500;
     --address-color: #434455;
     --button: #e7e9fc;
+    --icon-color:#8e8f99;
 }
 
 .header-logo-one {
@@ -480,6 +481,7 @@ h3 {
 }
 .customers-item{
    height: 88px;
+   color: var(--icon-color);
 }
 .customer-icon{
     fill: currentColor;
