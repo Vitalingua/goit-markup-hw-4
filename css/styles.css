@@ -687,8 +687,8 @@ h3 {
 }
 
 
-.modal-button:hover,
-.modal-button:focus {
+.modal:hover,
+.modal:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
