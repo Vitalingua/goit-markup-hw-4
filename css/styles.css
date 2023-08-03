@@ -480,7 +480,9 @@ h3 {
     color: var(--text-color);
     margin-bottom: 8px
 }
-
+.catalog{
+    display: block;
+}
 .customer-icons-list {
     display: flex;
     gap: 24px;
