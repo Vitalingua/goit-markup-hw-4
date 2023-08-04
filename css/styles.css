@@ -687,12 +687,14 @@ h3 {
     pointer-events: none;
 }
 
-
-.button:hover,
-.button:focus {
+.modal-button:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    outline: none;
+}
+.modal-button:hover {
+    background-color: #404bbf;
+    border: none;
 }
 
 .modal-icon {
