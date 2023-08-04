@@ -687,20 +687,8 @@ h3 {
 }
 
 
-.modal-container:hover,
-.modal-container:focus {
-    background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
-}
-.modal-button:hover,
-.modal-button:focus {
-    background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
-}
-.modal:hover,
-.modal:focus {
+.button:hover,
+.button:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
