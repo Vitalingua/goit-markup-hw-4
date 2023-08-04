@@ -691,10 +691,12 @@ h3 {
     background-color: #404bbf;
     border: none;
     outline: none;
+    fill: #ffffff;
 }
 .modal-button:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-icon {
