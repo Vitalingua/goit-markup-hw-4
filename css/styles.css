@@ -466,8 +466,8 @@ h3 {
 
 }
 
-.catalog-link:hover .under-text,
-.catalog-link:focus .under-text {
+.catalog:hover .under-text,
+.catalog:focus .under-text {
     transform: translateY(0%);
 }
 
@@ -535,6 +535,9 @@ h3 {
     text-align: center;
 }
 
+.customer-icon {
+    fill: currentColor;
+}
 .social-icon {
     color: var(--footer-icon);
 }
