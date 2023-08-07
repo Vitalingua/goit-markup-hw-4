@@ -725,6 +725,10 @@ h3 {
 
 }
 
+.subscribe {
+    padding-bottom: 16px;
+}
+
 .subscribe-field {
     background-color: transparent;
     border: 1px solid #FFFFFF;
