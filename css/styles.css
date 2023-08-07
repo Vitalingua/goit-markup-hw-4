@@ -535,6 +535,10 @@ h3 {
     text-align: center;
 }
 
+.customer-icon {
+    color: var(--footer-icon);
+}
+
 .under-text {
     color: #F4F4FD;
     font-weight: 400;
