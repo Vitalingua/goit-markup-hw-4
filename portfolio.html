@@ -233,26 +233,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="connect-container"></div>
-            <form>
-                <label class="subscribe">
-                    Subscribe
-                    <input class="subscribe-field" type="email" name="email" placeholder="E-mail" />
-            </form>
-            </label>
-            <label class="telegram"><button type="button" class="button-telegram" data-modal-open>Subscribe</button></label>
+            <div class="subscribe-container">
+                <p class="subsribe-text">Subscribe</p>
+                <form class="subscribe-form">
+                    <label class="subscribe">
+                        <input class="subscribe-field" type="email" name="email" placeholder="E-mail" />
+                    </label>
+                    <button class="subscribe-button" type="submit">Subscribe <svg class="send-footer-icon" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg></button>
+                </form>
             </div>
         </div>
     </footer>
-    <div data-modal="" class="modal-container is-hidden">
-        <div class="modal">
-            <button type="button" data-modal-close class="modal-button">
-                <svg class="modal-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
-        </div>
-    </div>
     <script src="./js/modal.js"></script>
     </body>
 
