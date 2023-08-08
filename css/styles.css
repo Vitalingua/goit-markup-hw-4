@@ -539,7 +539,7 @@ h3 {
     fill: currentColor;
 }
 .social-icon {
-    color: var(--button-background-color);
+    fill: var(--button-background-color);
 }
 
 .under-text {
@@ -581,7 +581,7 @@ h3 {
     height: 100%;
     justify-content: center;
     display: flex;
-
+    fill: currentColor;
     align-items: center;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -762,7 +762,9 @@ h3 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-
+.network-footer-icon {
+    fill:var(--footer-icon);
+}
 
 .subscribe-field::placeholder {
     color: #FFFFFF;
