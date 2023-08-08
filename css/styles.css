@@ -539,7 +539,7 @@ h3 {
     fill: currentColor;
 }
 .social-icon {
-    color: #f4f4fd;
+    color: var(--button-background-color);
 }
 
 .under-text {
